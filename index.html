@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Voyager Trivia</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+	<div class="container-fluid" style="text-align: center;">
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Star Trek Voyager Trivia!</h1>
+				<p>Press the start button to begin!</p>
+				<p>
+					<a class="btn btn-primary btn-lg" id="start">Begin!</a>
+				</p>
+			</div>
+		</div>
+
+		<!--First question-->
+		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>What year did the USS Voyager begin its career?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="stardate" id="input" value="2371" checked="checked">
+								2411
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="stardate" id="input" value="2371" checked="checked">
+								1986
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="stardate" id="input" value="2371" checked="checked">
+								2371
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="stardate" id="input" value="2371" checked="checked">
+								1492
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+		<!--Second question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>Where did the crew spend most of their time?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="exploration" id="input" value="alpha" checked="checked">
+								Alpha Quadrant
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="exploration" id="input" value="beta" checked="checked">
+								Beta Quadrant
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="exploration" id="input" value="gamma" checked="checked">
+								Gamma Quadrant
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="exploration" id="input" value="delta" checked="checked">
+								Delta Quadrant
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+		<!--Third question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>How many episodes did the series have?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="episodes" id="input" value="15" checked="checked">
+								15
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="episodes" id="input" value="84" checked="checked">
+								84
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="episodes" id="input" value="130" checked="checked">
+								130
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="episodes" id="input" value="172" checked="checked">
+								172
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+		<!--Fourth question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>Who was the captain of the ship?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="captain" id="input" value="janeway" checked="checked">
+								Kathryn Janeway
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="captain" id="input" value="picard" checked="checked">
+								Jean-Luc Picard
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="captain" id="input" value="kirk" checked="checked">
+								James T Kirk
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="captain" id="input" value="doctor" checked="checked">
+								The Doctor
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+		<!--Fifth question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>What Alien race kidnapped Seven of Nine as a child?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="seven" id="input" value="martians" checked="checked">
+								Martians
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="seven" id="input" value="borg" checked="checked">
+								Borg
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="seven" id="input" value="klingon" checked="checked">
+								Klingon
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="seven" id="input" value="ocampa" checked="checked">
+								Ocampa
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+	<!--Sixth question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>Where was Lieutenant Tom Paris living before joining the crew?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="paris" id="input" value="vulcan" checked="checked">
+								Vulcan
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="paris" id="input" value="ds9" checked="checked">
+								Deep Space Nine
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="paris" id="input" value="trill" checked="checked">
+								Trill
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="paris" id="input" value="prison" checked="checked">
+								Prison
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+	<!--Seventh question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>What was B'Elanna Torres' ethnicity?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="torres" id="input" value="earthling" checked="checked">
+								Homegrown Earthling
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="torres" id="input" value="half-klingon" checked="checked">
+								Half-Klingon/Half-Human
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="torres" id="input" value="bajoran" checked="checked">
+								Bajoran
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="torres" id="input" value="half-vulcan" checked="checked">
+								Half-Vulcan/Half-Human
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+
+	<!--Eigth question-->
+<!--		<div class="row">
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+			<form action="" method="POST" role="form">
+				<legend>Which crew member was native to the Delta Quadrant?</legend>
+				<div class="well">
+					<div class="form-group">
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="native" id="input" value="neelix" checked="checked">
+								Neelix
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="native" id="input" value="q" checked="checked">
+								Q
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="native" id="input" value="tuvok" checked="checked">
+								Tuvok
+							</label>
+						</div>
+						</div>
+						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="radio">
+							<label>
+								<input type="radio" name="native" id="input" value="harry" checked="checked">
+								Harry Kim
+							</label>
+						</div>
+						</div>
+						<br>
+					</div>
+				</div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+			</form>
+			</div>
+		</div>
+		<br><br><br>
+-->
+		<div class="row">
+			<button type="submit" class="btn btn-primary">Finish!</button>	
+		</div>
+	</div>
+
+</body>
+</html>
